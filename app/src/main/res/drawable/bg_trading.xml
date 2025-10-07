@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Dark base color -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#0D47A1"
+                android:endColor="#000000"
+                android:angle="270"/>
+        </shape>
+    </item>
+
+    <!-- Decorative angled overlay for trading style -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#802196F3"
+                android:endColor="#000000"
+                android:angle="135"/>
+        </shape>
+    </item>
+</layer-list>
